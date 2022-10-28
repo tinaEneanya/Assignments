@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.big-wapper{
+    align-items: center;
+    justify-items: center;
+    margin: 200px;
+    margin-left: 550px;
+}
+.wapper{
+    display: grid;
+    grid-template-columns: 200px 100px;
+   grid-auto-rows: minmax(200px, auto);
+   grid-gap: 5px;
+}
+.wapper1{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+   grid-auto-rows: minmax(200px, auto);
+   grid-gap: 5px;
+}
+.box1{
+    background-color: rgb(248, 125, 146);
+}
+.box2{
+    background-color: rgb(4, 90, 119);
+}
+.box3{
+    background-color: #007900; 
+  
+}
+.box4{
+    background-color: #800000;
+}
+.box5{
+    background-color:blueviolet;   
+}
